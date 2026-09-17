@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+/* จัดสไตล์เซลล์ตาราง */
+.table th {
+    border: 1px solid black;
+    width: 50%;
+    text-align: left;
+    vertical-align: top;
+    padding: 2vw;
+    font-size: clamp(16px, 4vw, 40px);
+}
+
+.one {
+    background-color: #98A8F8;
+}
+
+.two {
+    background-color: #BCCEF8;
+}
